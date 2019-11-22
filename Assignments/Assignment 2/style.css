@@ -1,0 +1,110 @@
+h1, h2 {
+	font-size:1.5em; 
+	color:#504A4B; 
+	text-align: center; 
+	padding-left: 20px;
+	margin: .5em 0 .25em;}
+
+th, td {
+	border: thin solid black;}
+
+body {
+    background-color: #eaf0f9;
+}
+
+div.move {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 30s;
+	animation-delay: 0s;
+    animation-iteration-count: infinite;
+	display:inline;
+	
+	
+}
+
+@keyframes example {
+    0%   {left:850px; top:0px;}
+    100%  {left:-1200px; top:0px;}
+	
+}
+
+
+
+
+.bigger { 
+	font-size : 2em;
+	font-family: Arial; 
+	color:#99978E;
+	text-decoration: underline;}	
+	
+table {
+	border: thin solid black;
+	background-color:#c9deff} 
+
+p.center {
+	text-align: center;
+	font-style: italic;
+}
+
+header{
+	border: 2px solid black;
+	width: 700px;
+	margin: 20px; 
+	padding: 10px; 
+}
+
+
+
+th {
+    background-color: #061e44;
+    color: white;
+	font-weight: bold;
+}
+
+div.meeting {
+    color: red;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+} 
+section{
+	border: 2px dashed black;
+	width: 300px;
+	margin: 20px; 
+	padding: 10px; 
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0E213D;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #D6D2CB;
+    padding: 15px 17px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #605E50;
+}
+
+img  {position: absolute; } 
+
+
+
+
+

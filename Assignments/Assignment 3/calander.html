@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset = "utf-8"/>
+	<title> This is my calander for this week </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body onload="myFunction()" >
+	<script type = "text/javascript" src = "stacking.js">
+	</script>
+	
+	<ul>
+		<li><a href="calander.html">Home</a></li>
+		<li><a href="form.html">Input Form</a></li>
+	</ul>
+	<br>     
+    <header>
+		<h1>  This is my calander for this week </h1>
+		<br>
+	</header>
+	<div class = "move" id = "demo"  > </div> 
+	<!-- <marquee> <p class = "d" id="demo"></p> </marquee> -->
+			<br>
+			<a class="twitter-timeline"  href="https://twitter.com/hashtag/UMN" data-widget-id="920320173294448640">#UMN Tweets</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          			
+			<table id="myTable">
+			<tr>
+				<th> Monday </th>
+					<td id = "Fraser1_" onmousemove = "toTop('Fraser1')" onmouseout = "toDown('Fraser1')" > 
+						<p class = "center"> 1:00 - 2:15 PM </p>  
+						<p> CSCI 4131 -
+						<a href = "http://campusmaps.umn.edu/fraser-hall"> Fraser Hall 101 </a> </p>
+						
+						<p> <img id="Fraser1" src="Fraser1.jpg" alt="Img1"  width="0" height="0"/> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+					</td>
+					<td id = "Akerman1_" onmousemove = "toTop('Akerman1')" onmouseout = "toDown('Akerman1')"> 
+						<p class = "center"> 2:30 - 3:45 PM </p> 
+						<p class = "background"> WRIT 3562W -
+						<a href = "http://campusmaps.umn.edu/akerman-hall"> Akerman Hall 227 </a> </p>
+						
+						<p> <img id="Akerman1" src="Akerman1.jpg" alt="Img1"  width="0" height="0"/> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br> 
+						<br>
+					</td>
+					<td>
+						<p class = "center"> - </p> 
+						<p class = "center"> - </p>
+					</td>
+			</tr>
+			<tr>
+				<th> Tuesday </th>
+					<td id = "Tate_" onmousemove = "toTop('Tate')" onmouseout = "toDown('Tate')" >  
+						<p class = "center"> 1:00 - 2:15 PM </p> 
+						<p> CSCI 3081W -
+						<a href = "http://campusmaps.umn.edu/tate-laboratory-physics"> Tate Hall 101 </a> </p> 
+						<p> <img id="Tate" src="Tate.jpg" alt="Img1"  width="0" height="0"/> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+					</td>
+	  
+					<td id = "Alderman_" onmousemove = "toTop('Alderman')" onmouseout = "toDown('Alderman')" >
+						<p class = "center"> 5:10 - 6:00 PM </p>
+						<p> PLPA 1005 - 
+						<a href = "http://campusmaps.umn.edu/alderman-hall"> Alderman Hall 415 </a> </p> 
+						<p> <img id="Alderman" src="Alderman.jpg"  alt="Img1"  width="0" height="0"/> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+					</td>
+					
+					<td id="Plant_" onmousemove = "toTop('Plant')" onmouseout = "toDown('Plant')" >
+						<p class = "center"> 6:15 - 8:15 PM </p>
+						<p> PLPA 1005 - Plant Growth Facility 136 </p>
+						<p> <img id="Plant" src="Plant.jpg"  alt="Img1"  width="0" height="0"/> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>						
+					</td>
+			</tr>
+			<tr>
+				<th> Wednesday </th>
+					<td id="Fraser_" onmousemove = "toTop('Fraser')" onmouseout = "toDown('Fraser')" > 
+						<p class = "center"> 1:00 - 2:15 PM </p> 
+						<p> CSCI 4131 -
+						<a href = "http://campusmaps.umn.edu/fraser-hall"> Fraser Hall 101 </a> </p>
+						
+						<p> <img id="Fraser" src="Fraser.jpg"  alt="Img1" width="0" height="0"/> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+					</td>
+					<td id="Akerman_" onmousemove = "toTop('Akerman')" onmouseout = "toDown('Akerman')"> 
+						<p class = "center"> 2:30 - 3:45 PM </p> 
+						<p class = "background"> WRIT 3562W -
+						<a href = "http://campusmaps.umn.edu/akerman-hall"> Akerman Hall 227 </a> </p>
+						
+						<p> <img id="Akerman" src="Akerman.jpg"  alt="Img1" width="0" height="0"/> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+					</td>
+					<td id="Hmong_" onmousemove = "toTop('Hmong')" onmouseout = "toDown('Hmong')">
+						<p class = "center"> 6:00 - 8:00 PM </p>
+						<p> Hmong American Partnership - meeting </p>
+						<!-- this picture from http://www.mcgough.com/projects/fine-arts-cultural/hmong-american-partnership/ -->
+						<p> <img id="Hmong" src="Hmong.jpg"  alt="Img1"  width="0" height="0"/> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+					</td>
+			</tr>
+			<tr>
+				<th> Thursday </th>
+					<td id="Tate1_" onmousemove = "toTop('Tate1')" onmouseout = "toDown('Tate1')" >  
+						<p class = "center"> 1:00 - 2:15 PM </p> 
+						<p> CSCI 3081W -
+						<a href = "http://campusmaps.umn.edu/tate-laboratory-physics"> Tate Hall 101 </a> </p> 
+						<p> <img id="Tate1" src="Tate1.jpg"  alt="Img1"  width="0" height="0"/> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+					</td>
+	  
+					<td id="Jones_" onmousemove = "toTop('Jones')" onmouseout = "toDown('Jones')">  
+						
+						<p class = "center"> 3:00 - 3:30 PM </p> 
+						<p > Meeting with My Advisor Mattia-
+						<a href = "http://campusmaps.umn.edu/jones-hall"> Jones Hall </a> </p> 
+						<p> <img id="Jones" src="Jones.jpg"  alt="Img1"  width="0" height="0"/> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br> 
+					</td>
+	  
+					<td> 
+						<p class = "center"> - </p> 
+						<p class = "center"> - </p>						
+					</td>
+			</tr>
+			<tr>
+				<th> Friday </th>
+					<td id="Keller_" onmousemove = "toTop('Keller')" onmouseout = "toDown('Keller')">   
+						<p class = "center"> 2:30 - 3:20 PM </p> 
+						<p> CSCI 3081W -
+						<a href = "http://campusmaps.umn.edu/kenneth-h-keller-hall"> Keller Hall 1-250 </a> </p> 
+						<p> <img id="Keller" src="Keller.jpg"  alt="Img1"  width="0" height="0"/> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br> 
+					</td>
+					
+					<td >
+						<p class = "center"> - </p> 
+						<p class = "center"> - </p>
+					</td>
+					
+					<td onmousemove = "toTop('calanderImage')" onmouseout = "toDown('calanderImage')">   
+					<p class = "center"> 6:00 - ... </p>
+						<p> THE WEEKEND STARTS - have fun </p>
+						<p> <img id="calanderImage" src="calanderImage.jpg"  alt="Img1"  width="0" height="0"/> </p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br> 
+					</td>
+			</tr>
+			
+			</table>
+			
+			<br>
+			
+			<!-- <a class="twitter-timeline" href="https://twitter.com/S__B68?ref_src=twsrc%5Etfw">Tweets by S__B68</a> 
+			<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			-->
+			<form action="javascript:mySearchRaduis();" name = "myForm" method="get" >
+				<p>
+					<label> Raduis: 
+						<input id = "raduis" name = "raduis" value = "0" type = "text" size = "25" maxlength = "30" required/>
+					</label>
+					<input type = "submit" value = "Find Nearby Resturants" onclick="mySearchRaduis()">
+				</p>
+		
+				<p>
+					<label> Destination:
+					<input id = "destination" name = "destination" type = "text" size = "25" maxlength = "30" value = "" >
+					</label>
+					<input type = "submit" value = "Get Directions" onclick="mySearchDestination()"> 
+				</p>
+				<p>
+					<label> <input id = "WALKING" type="radio" name="direction"/> Walking </label>
+					<label> <input id = "DRIVING" type="radio" name="direction"/> Driving </label>
+					<label> <input id = "TRANSIST" type="radio" name="direction"/> Transist </label>
+					<label> <input id = "BICYCLING" type="radio" name="direction"/> Bicycling </label>
+				</p>
+			</form>
+			<div id="googleMap" style="width:950PX;height:400px;"></div>
+		    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt1-PgWFonWfvbCqXd93btHzU3BEkJO_g&libraries=places&callback=myMap"></script>
+			<div id="map" style="width:950PX;height:400px;"></div>
+
+
+			
+
+
+</body>
+</html>
+

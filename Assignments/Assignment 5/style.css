@@ -1,0 +1,40 @@
+
+th, td {
+	border: thin solid black;}
+body {
+		background-color: #eaf0f9;
+}
+table {
+	border: thin solid black;
+	background-color:#c9deff
+	}
+
+	.twitter-timeline{
+		float: right;
+		 margin: 0 0 10px 10px;
+	}
+th {
+		background-color: #061e44;
+		color: white;
+	font-weight: bold;
+}
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #0E213D;
+}
+li {
+		float: left;
+}
+li a {
+		display: block;
+		color: #D6D2CB;
+		padding: 15px 17px;
+		text-align: center;
+		text-decoration: none;
+}
+li a:hover {
+		background-color: #605E50;
+}

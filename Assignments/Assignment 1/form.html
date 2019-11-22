@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<title> Calender Input </title>
+	<meta charset = "utf-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+		<a href="form.html">Input Form</a> 
+		<a href="calander.html">Calander</a> 
+	</nav>
+	
+	<section>
+		<h2> Calender Input </h2>
+	</section>
+	
+	<form method="get" action = "http://www-users.cselabs.umn.edu/~tulaj001/form_handler.php">
+		<p>
+			<label> Event Name:
+				<input name = "eventname" type = "text" size = "25" maxlength = "30" required/>
+			</label>
+		</p>
+		
+		<p>
+			<label> Start time:
+				<input name = "starttime" placeholder = "hh:mm am/pm" required/>
+			</label>
+		</p>
+
+		<p>
+			<label> End time:
+				<input name = "endtime" placeholder = "hh:mm am/pm" required/>
+			</label>
+		</p>
+
+		<p>
+			<label> Location:
+				<input name = "location" type = "text" size = "25" maxlength = "30" required/>
+			</label>
+		</p>
+
+		<p> Day of the week: 
+			<select name = "day">
+				<option> Monday </option>
+				<option> Tuesday </option>
+				<option> Wednesday </option>
+				<option> Thursday </option>
+				<option> Friday </option> 
+			</select>
+		</p>
+			
+		<input type = "submit" value = "Submit"> 
+		<input type = "reset" value = "Clear">
+		<p>
+		
+		</p>
+		<img src="busy2.jpg" alt="Busy Week" style="width:300px;height:150px;">
+		<!-- the picture is form https://www.busyweek.co.uk/ -->
+	</form>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<title> Calender Input </title>
+
+	<meta charset = "utf-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<script type = "text/javascript" src = "stacking.js">
+	</script>
+	<ul>
+		<li><a href="calander.html">Home</a></li>
+		<li><a href="form.html">Input Form</a></li>
+	</ul>
+	
+	<section>
+		<h2> Calender Input </h2>
+	</section>
+	
+	<form onsubmit = "return valForm()" name = "myForm" method="get" action = "http://www-users.cselabs.umn.edu/~tulaj001/form_handler.php">
+		<p>
+			<label> Event Name:
+				<input name = "eventname" type = "text" size = "25" maxlength = "30" required/>
+			</label>
+		</p>
+		
+		<p>
+			<label> Start time:
+				<input type="time" name="starttime" required/>
+			</label>
+		</p>
+
+		<p>
+			<label> End time:
+				<input type="time" name="endtime" required/>
+			</label>
+		</p>
+
+		<p>
+			<label> Location:
+				<input name = "location" type = "text" size = "25" maxlength = "30" required/>
+			</label>
+		</p>
+
+		<p> Day of the week: 
+			<select name = "day">
+				<option> Monday </option>
+				<option> Tuesday </option>
+				<option> Wednesday </option>
+				<option> Thursday </option>
+				<option> Friday </option> 
+			</select>
+		</p>
+			
+		<input type = "submit" value = "Submit"> 
+		<input type = "reset" value = "Clear">
+		<p>
+		
+		</p>
+		<img class = "calanderImage" id = "calanderImage" height ="600" width ="870" 
+			     src = "calanderImage.jpg" alt = "Form" />
+	</form>
+</body>
+</html>
